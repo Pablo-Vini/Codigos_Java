@@ -7,8 +7,9 @@ public class ConversaoBinario {
 	public static void main(String[] args) {
 		Scanner scanInt = new Scanner(System.in);
 		Scanner scanBin = new Scanner(System.in);
-		int valorint, inter;
-		String valorbin;
+		int valorint;
+		String inter;
+		String valorbin = "";
 		String div = "";
 		
 		System.out.println("0 - Conversor de Decimal para Binário");
@@ -39,8 +40,8 @@ public class ConversaoBinario {
 			valorbin = scanBin.nextLine();
 			
 			for(int i=0;i<valorbin.length();i++) {
-				inter = Integer.parseInt(valorbin.substring(i));
-				System.out.println(inter);
+				inter = valorbin.substring(i);
+				System.out.println(inter + "...");
 			}
 			
 			
