@@ -29,8 +29,7 @@ public class DataHora {
 		
 		DateTimeFormatter localDateFormatter = DateTimeFormatter.ofPattern("dd MMMM yyyy", new Locale("PT","br"));
 		System.out.println("Data formatada BR: " + localDateTime.format(localDateFormatter));
-		
-		
+
 	}
 }
 
